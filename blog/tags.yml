@@ -3,3 +3,7 @@ test:
   permalink: /test
   description: test tag description
 
+writing:
+  label: 一些文字
+  permalink: /writing
+  description: 随便写写/抄抄

@@ -2,6 +2,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
@@ -45,6 +48,8 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //  'https://github.com/algacez/opennotes/tree/main/packages/create-docusaurus/templates/shared/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
@@ -66,6 +71,13 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  stylesheets: [
+    {
+      href: '/katex/katex.min.css',
+      type: 'text/css',
+    },
   ],
 
   themeConfig: {
@@ -99,6 +111,12 @@ const config: Config = {
           position: 'left',
           label: 'Interests',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'docsSidebar',
+          position: 'left',
+          label: 'Docs',
+        },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/algacez/opennotes',
@@ -126,14 +144,18 @@ const config: Config = {
               to: '/docs/Interests/main',
             },
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Docs',
+              to: '/docs/docs/main',
             },
           ],
         },
         {
           title: 'My',
           items: [
+            {
+              label: 'Blog',
+              to: '/blog',
+            },
             {
               label: 'X',
               href: 'https://x.com/user1192892',
@@ -145,15 +167,32 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Friends',
           items: [
             {
-              label: 'OpenAI',
-              href: 'https://openai.com',
+              label: 'Shepherd',
+              href: 'https://www.duskydream.icu/',
             },
             {
-              label: 'SpaceX',
-              href: 'https://www.spacex.com',
+              label: 'Fw190',
+              href: 'https://blog.fw190.top/',
+            },
+            {
+              label: 'jboyxs',
+              href: 'https://jboyxs.775772.xyz/',
+            },
+          ],
+        },
+        {
+          title: 'Links',
+          items: [
+            {
+              label: 'NetUnion',
+              href: 'https://netunion.org/',
+            },
+            {
+              label: 'CNSS',
+              href: 'https://cnss.studio/',
             },
           ],
         },
