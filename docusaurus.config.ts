@@ -145,7 +145,7 @@ const config: Config = {
             },
             {
               label: 'Docs',
-              to: '/docs/docs/main',
+              to: '/docs/Docs/main',
             },
           ],
         },
