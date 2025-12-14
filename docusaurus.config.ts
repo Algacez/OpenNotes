@@ -93,6 +93,7 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'csSidebar',
@@ -117,7 +118,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/algacez/opennotes',
           label: 'GitHub',

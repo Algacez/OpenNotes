@@ -1,6 +1,15 @@
+---
+slug: sunshinemoonlightfrp
+title: Sunshin+Moonlight+FRP实现串流
+authors: [rock]
+tags: [tutorial]
+---
+
 ## 被控端
 
 前往[sunshine官网](https://app.lizardbyte.dev/Sunshine/?lng=zh-CN)进行下载
+
+<!-- truncate -->
 
 ## 控制端
 
