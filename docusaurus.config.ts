@@ -100,7 +100,7 @@ const config: Config = {
       // 可选：替换来自 Algolia 的项目 URL 的部分内容。当对使用不同 baseUrl 的多个部署使用相同的搜索索引时很有用。你可以在 `from` 参数中使用正则表达式或字符串。例如：localhost:3000 vs myCompany.com/docs
       replaceSearchResultPathname: {
         from: '/docs/', // 或作为正则表达式：/\/docs\//
-        to: '/',
+        to: '/docs/',
       },
 
       // 可选：Algolia 搜索参数
@@ -153,6 +153,11 @@ const config: Config = {
         {
           href: 'https://github.com/algacez/opennotes',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'mailto:blog@282994.xyz',
+          label: 'Email me😊',
           position: 'right',
         },
       ],
