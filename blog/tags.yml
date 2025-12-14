@@ -1,9 +1,9 @@
-test:
-  label: test
-  permalink: /test
-  description: test tag description
-
 writing:
   label: 一些文字
   permalink: /writing
   description: 随便写写/抄抄
+
+blog:
+  label: blogging 
+  permalink: /blog
+  description: 博客搭建
