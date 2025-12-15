@@ -151,6 +151,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+            to: 'friends',
+            label: 'Friends', 
+            position: 'right'
+          },
+        {
           href: 'https://github.com/algacez/opennotes',
           label: 'GitHub',
           position: 'right',
@@ -200,23 +205,6 @@ const config: Config = {
             {
               label: 'Email',
               href: 'mailto:opennotes@282994.xyz',
-            },
-          ],
-        },
-        {
-          title: 'Friends',
-          items: [
-            {
-              label: 'Shepherd',
-              href: 'https://www.duskydream.icu/',
-            },
-            {
-              label: 'Fw190',
-              href: 'https://blog.fw190.top/',
-            },
-            {
-              label: 'jboyxs',
-              href: 'https://jboyxs.775772.xyz/',
             },
           ],
         },
