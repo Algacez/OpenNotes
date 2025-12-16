@@ -8,7 +8,7 @@ import rehypeKatex from 'rehype-katex';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My logs',
+  title: "Rock's logs",
   tagline: 'i guess AI is cool',
   favicon: 'img/favicon.ico',
 
@@ -18,7 +18,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://www.282994.xyz',
+  url: 'https://blog.282994.xyz',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -119,7 +119,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My logs',
+      title: "Rock's logs",
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

@@ -60,3 +60,31 @@
   background: rgba(0, 0, 0, .1);
   transition: all .3s ease;
 }
+
+/* 修改原有的 h1 样式，防止名字过大 */
+.friend-ship h1 {
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+  color: var(--ifm-color-emphasis-900);
+}
+
+/* 备注的新样式 */
+.friendDescription {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+  line-height: 1.2;
+}
+
+/* 调整布局容器，确保文字垂直居中 */
+.friend-ship div {
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.friend-ship {
+  /* 确保链接铺满整个内部容器 */
+  cursor: pointer;
+}
