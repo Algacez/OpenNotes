@@ -1,6 +1,6 @@
 # :whale:Docker 2
 
-请你完成这个[项目]('https://github.com/ZHOUGONG24/memo')的搭建
+请你完成这个[项目](https://github.com/ZHOUGONG24/memo)的搭建
 
 ## ⭐ 基本要求
 

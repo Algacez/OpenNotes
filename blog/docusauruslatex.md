@@ -1,6 +1,14 @@
+---
+slug: docusauruslatex
+title: Docusaurus配置数学公式
+authors: [rock]
+tags: [tutorial]
+---
 ```
 pnpm add remark-math@6 rehype-katex@7
 ```
+
+<!-- truncate -->
 
 在主配置文件中添加
 
