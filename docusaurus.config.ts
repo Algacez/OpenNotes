@@ -140,6 +140,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'competitionsSidebar',
+          position: 'left',
+          label: 'Competitions',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'interestsSidebar',
           position: 'left',
           label: 'Interests',
@@ -154,7 +160,7 @@ const config: Config = {
             to: 'friends',
             label: 'Friends', 
             position: 'right'
-          },
+        },
         {
           href: 'https://github.com/algacez/opennotes',
           label: 'GitHub',
@@ -182,12 +188,8 @@ const config: Config = {
               to: '/docs/Math/main',
             },
             {
-              label: 'Interests',
-              to: '/docs/Interests/main',
-            },
-            {
-              label: 'Docs',
-              to: '/docs/Docs/main',
+              label: 'Competitions',
+              to: '/docs/Competitions/main',
             },
           ],
         },
