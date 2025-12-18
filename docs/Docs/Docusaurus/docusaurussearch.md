@@ -1,9 +1,4 @@
----
-slug: docusaurussearch
-title: Docusaurus配置搜索
-authors: [rock]
-tags: [tutorial]
----
+# Docusaurus配置搜索
 
 在你的 `themeConfig` 中添加一个 `algolia` 字段。**[申请 DocSearch](https://docsearch.algolia.com/apply/)** 以获取你的 Algolia 索引和 API 密钥。
 

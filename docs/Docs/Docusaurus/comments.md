@@ -1,9 +1,4 @@
----
-slug: docusauruscomment
-title: Docusaurus配置twikoo评论
-authors: [rock]
-tags: [tutorial]
----
+# Docusaurus配置twikoo评论
 
 ## twikoo
 

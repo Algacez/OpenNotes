@@ -53,6 +53,7 @@ const config: Config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -231,6 +232,11 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
+
+  markdown: {
+  mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
 };
 
 export default config;
