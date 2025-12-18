@@ -28,7 +28,12 @@ const config: Config = {
   organizationName: 'Algacez', // Usually your GitHub org/user name.
   projectName: 'OpenNotes', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
+  
+  // 新的层级结构 [!code ++]
+  markdown: {
+    onBrokenMarkdownLinks: 'warn', // [!code ++]
+  },
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
