@@ -25,3 +25,5 @@ export default {
 删除
 
 `./src/pages/index.js`及相关文件
+
+报错

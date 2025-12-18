@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # ⚡Flash Attention
 
 本题要求你基于CUDA复现Flash Attention算法。Flash Attention v1论文见：

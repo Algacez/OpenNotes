@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 ```c
 #include <stdio.h>  
 #include <math.h>  

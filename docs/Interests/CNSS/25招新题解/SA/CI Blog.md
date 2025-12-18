@@ -1,4 +1,4 @@
-# :dizzy: CI Blog
+# 💫 CI Blog
 
 相信在前面你已经了解了git的一部分使用了,其实git的用处还有很多,例如我们可以利用git的特性建立一个开发流程,可以参考[这篇文章](https://www.cnblogs.com/midworld/p/13608008.html)大致了解一下,当然了要是没有[持续集成](https://zh.wikipedia.org/wiki/持續整合)的话这一切都会变得非常的麻烦,作答本体希望你可以在部署自己的博客时候应用持续集成
 

@@ -1,4 +1,8 @@
-# :penguin: Hello Linux
+---
+sidebar_position: 1
+---
+
+# 🐧 Hello Linux
 
 开始探索SA的世界的第一步,先安装一下Linux吧!
 

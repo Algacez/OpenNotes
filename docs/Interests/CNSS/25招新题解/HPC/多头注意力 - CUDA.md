@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # 🧊多头注意力 - CUDA
 
 ## ⚠ 题目描述

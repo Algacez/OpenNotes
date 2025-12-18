@@ -1,4 +1,4 @@
-# :globe_with_meridians: Let's make your own blog
+# 🌐 Let's make your own blog
 
 我们知道nginx是一个网页服务器,如果你完成了`x代表什么`这一道题,相信你一定对nginx非常熟悉了,当然了即使没有完成也不影响你完成这一道题目
 怎么你们的博客都那么好看,给俺也整一个

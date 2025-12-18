@@ -1,3 +1,7 @@
+---
+sidebar_position: 0
+---
+
 # HPC Guidelines
 
 ### 1. 什么是 HPC？

@@ -1,4 +1,8 @@
-# :palm_tree: Git branch
+---
+sidebar_position: 3
+---
+
+# 🌴 Git branch
 
 git有很多的命令,你能教教我吗
 

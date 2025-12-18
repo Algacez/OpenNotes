@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # 🧊Softmax - CUDA
 
 ## ⚠ 题目描述
