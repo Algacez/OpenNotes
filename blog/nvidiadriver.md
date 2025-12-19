@@ -34,10 +34,6 @@ sudo sed -i 's/http:\/\/security.ubuntu.com/https:\/\/mirrors.tuna.tsinghua.edu.
 
 [下载驱动](https://cn.download.nvidia.com/tesla/580.105.08/nvidia-driver-local-repo-ubuntu2404-580.105.08_1.0-1_amd64.deb)
 
-针对你下载的这个特定版本（Ubuntu 24.04, 驱动版本 580.105.08），由于驱动版本较新，安装时需要严格遵循 NVIDIA 的本地仓库安装逻辑。
-
-请按照以下步骤在虚拟机终端执行：
-
 ------
 
 ### 1. 准备工作
