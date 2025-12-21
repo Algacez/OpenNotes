@@ -9,6 +9,54 @@ tags: [tutorial]
 
 <!-- truncate -->
 
+😭
+
+```
+sudo apt-mark hold linux-image-rt-arm64 linux-headers-rt-arm64
+```
+
+```
+sudo apt install wireguard-tools
+```
+
+
+
+```
+services:
+  wg-gen-web:
+    image: vx3r/wg-gen-web:latest
+    container_name: wg-gen-web
+    restart: always
+    expose:
+      - "8080/tcp"
+    ports:
+      - 8085:8080
+    environment:
+      - WG_CONF_DIR=/data
+      - WG_INTERFACE_NAME=wg0.conf
+      - OAUTH2_PROVIDER_NAME=fake
+      - WG_STATS_API=http://<API_LISTEN_IP>:8182
+    volumes:
+      - /etc/wireguard:/data
+    network_mode: bridge
+  wg-json-api:
+    image: james/wg-api:latest
+    container_name: wg-json-api
+    restart: always
+    cap_add:
+      - NET_ADMIN
+    network_mode: "host"
+    command: wg-api --device wg0 --listen <API_LISTEN_IP>:8182
+```
+
+```
+sudo apt install -y linux-image-arm64 linux-headers-arm64
+```
+
+
+
+## kernel >= 6
+
 ```
 sudo apt update
 sudo apt install wireguard
@@ -79,7 +127,7 @@ PostDown = iptables -D FORWARD -i %i -j ACCEPT
 PublicKey = 
 AllowedIPs = 10.78.0.2/32
 
-Peer]
+[Peer]
 # 客户端2公钥
 PublicKey = 
 AllowedIPs = 10.78.0.3/32
