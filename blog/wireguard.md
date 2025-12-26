@@ -16,12 +16,9 @@ sudo apt-mark hold linux-image-rt-arm64 linux-headers-rt-arm64
 ```
 
 ```
-sudo apt install wireguard-tools
-```
-
-```
 sudo apt update
-sudo apt install golang git
+sudo apt install wireguard-tools
+sudo apt install git
 ```
 
 ```

@@ -30,6 +30,10 @@ systemctl start v2ray
 
 ![image-20251217222351813](./assets/image-20251217222351813.png)
 
+
+
+
+
 ---
 
 ## v2raya
