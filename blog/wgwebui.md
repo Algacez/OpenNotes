@@ -1,6 +1,6 @@
 ---
-slug: wggenweb
-title: Wireguard-gen-web
+slug: wgwebui
+title: Wireguard-web-ui
 authors: [rock]
 tags: [tutorial]
 ---
