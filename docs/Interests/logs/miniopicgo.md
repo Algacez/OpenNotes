@@ -1,15 +1,6 @@
----
-slug: miniopicgo
-title: 搭建minio使用picgo作为图床
-authors: [rock]
-tags: [blog]
----
-
 20250422是最后一个有控制台版本
 
 喜欢商业化是吧😡
-
-<!-- truncate -->
 
 ### docker
 

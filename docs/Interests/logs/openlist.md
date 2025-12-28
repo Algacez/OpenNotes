@@ -1,13 +1,3 @@
----
-slug: openlist
-title: openlist
-authors: [rock]
-tags: [tutorial]
----
-openlist
-
-<!-- truncate -->
-
 ```
 # docker-compose.yml
 services:

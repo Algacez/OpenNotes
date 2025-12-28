@@ -140,6 +140,12 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
+          sidebarId: 'interestsSidebar',
+          position: 'left',
+          label: 'Interests',
+        },
+        {
+          type: 'docSidebar',
           sidebarId: 'mathSidebar',
           position: 'left',
           label: 'Math',
@@ -149,12 +155,6 @@ const config: Config = {
           sidebarId: 'competitionsSidebar',
           position: 'left',
           label: 'Competitions',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'interestsSidebar',
-          position: 'left',
-          label: 'Interests',
         },
         {
           type: 'docSidebar',
@@ -190,8 +190,8 @@ const config: Config = {
               to: '/docs/CS/main',
             },
             {
-              label: 'Math',
-              to: '/docs/Math/main',
+              label: 'Interests',
+              to: '/docs/Interests/main',
             },
             {
               label: 'Competitions',

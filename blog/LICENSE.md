@@ -1,8 +1,12 @@
-# 开源许可证
+---
+slug: license
+title: 开源许可证
+authors: [rock]
+---
 
 2023年开源软件的下载使用达到了**4万亿次**，以空前的力量推动软件生态的发展与创新。这里面下载最突出的领域语言是JavaScript，能占到1.5万亿
 
-# 开宗明义
+<!-- truncate -->
 
 > 许可证大分类，强度由高到低
 
@@ -80,7 +84,7 @@
 
 ## 开源的非经济利益
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201759407.png)
+![](./assets/202404201759407.png)
 
 ## 开源流派的理念比喻
 
@@ -102,15 +106,13 @@ Apache & GPL是两种加入共产主义社会的方式
 从编程语言开源许可证分布进行统计
 
 - C/C++ 主要使用MIT，BSD，Apache许可证，GPL/LGPL约占16%，整体使用更严格
-- Java主要使用Apache，MIT许可证，GPL/LGPL约占1%，整体使用更宽
-
-[![许可证在编程语言和应用领域的分布](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201813372.png)](http://cdn.diffday.com/picgo/20230920154023.png)
+- Java主要使用Apache，MIT许可证，GPL/LGPL约占1%，整体使用更宽![许可证在编程语言和应用领域的分布](./assets/202404201813372.png)
 
 ## 市占率
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201813497.png)
+![](./assets/202404201813497.png)
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201814986.png)
+![](./assets/202404201814986.png)
 
 # 许可证简洁区别示意
 
@@ -118,7 +120,7 @@ Apache & GPL是两种加入共产主义社会的方式
 >
 > 静态链接至LGPL的代码/库，还是有一些衍生品行为要求的
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201814197.png)
+![](./assets/202404201814197.png)
 
 | 许可证种类     | 要在源码里包含原许可证 | 允许商业使用                                     | 允许修改再发布 | 修改后的源码强制继续开源                                     |
 | :------------- | ---------------------- | ------------------------------------------------ | -------------- | ------------------------------------------------------------ |
@@ -400,7 +402,7 @@ Android被收购前，是准备做一个智能相机平台（可联网的相机�
 
 #### ASOP的逃逸设计
 
-![android分层开源协议栈](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201815875.png)
+![android分层开源协议栈](./assets/202404201815875.png)
 
 Android设计的多层软件栈中，采用Adapter模式处理Android和Linux的关系
 
@@ -566,11 +568,11 @@ Mulan PSL V2兼容Apache License V2.0，L/GPLv2，L/GPLv3等许可证。即，�
 
 开源软件在最为敏感的金融行业的应用主要面临合规风险、安全风险、技术风险和管理风险等四类风险[[16\]](https://blog.diffday.com/开源许可证.html#fn:16)。
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201817299.png)
+![](./assets/202404201817299.png)
 
 > 台账：原指摆放在台上供人翻阅的账簿，也就是明细记录表
 
-![](https://mirror.ghproxy.com/https://raw.githubusercontent.com/amedesuu/img-2/main/img/202404201817976.png)
+![](./assets/202404201817976.png)
 
 # 供应链安全
 

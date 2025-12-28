@@ -1,13 +1,4 @@
----
-slug: ollamaoffline
-title:  离线ollama安装
-authors: [rock]
-tags: [tutorial]
----
-
 下载https://bgithub.xyz/ollama/ollama/releases/download/v0.13.5/ollama-linux-amd64.tgz
-
-<!-- truncate -->
 
 预览
 
