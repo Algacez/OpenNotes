@@ -15,7 +15,7 @@ import type {Props} from '@theme/DocItem/Layout';
 
 import styles from './styles.module.css';
 
-import Twikoo from '../../../components/Twikoo';
+// import Twikoo from '../../../components/Twikoo';
 
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
@@ -59,7 +59,7 @@ export default function DocItemLayout({children}: Props): ReactNode {
           </article>
           <DocItemPaginator />
         </div>
-        <Twikoo/>
+        {/* <Twikoo/>*/}
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
     </div>
